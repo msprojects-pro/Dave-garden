@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-forest: #0E2E17;
+  --color-forest-deep: #183F25;
+  --color-forest-accent: #527A45;
+  --color-forest-light: #6C995C;
+  --color-forest-muted: #E2ECE0;
+  --color-bg-soft: #F4F7F2;
+  --color-text-main: #17231A;
+  --color-text-muted: #667268;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+/* Custom focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid #527A45;
+  outline-offset: 2px;
+}

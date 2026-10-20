@@ -1,0 +1,6 @@
+{
+  "name": "Dave's Garden & Property Maintenance",
+  "description": "Professional gardening and outdoor property maintenance in Shropshire, UK. Lawn care, hedge trimming, garden tidy-ups, and outdoor upkeep. Free quotes available.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
